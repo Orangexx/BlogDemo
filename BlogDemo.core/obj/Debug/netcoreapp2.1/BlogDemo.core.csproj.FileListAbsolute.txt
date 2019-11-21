@@ -1,0 +1,9 @@
+G:\VSWorkspace\BlogDemo\BlogDemo.core\bin\Debug\netcoreapp2.1\BlogDemo.core.deps.json
+G:\VSWorkspace\BlogDemo\BlogDemo.core\bin\Debug\netcoreapp2.1\BlogDemo.core.dll
+G:\VSWorkspace\BlogDemo\BlogDemo.core\bin\Debug\netcoreapp2.1\BlogDemo.core.pdb
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.csprojAssemblyReference.cache
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.csproj.CoreCompileInputs.cache
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.AssemblyInfoInputs.cache
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.AssemblyInfo.cs
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.dll
+G:\VSWorkspace\BlogDemo\BlogDemo.core\obj\Debug\netcoreapp2.1\BlogDemo.core.pdb
