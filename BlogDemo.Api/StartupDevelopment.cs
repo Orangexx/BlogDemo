@@ -3,6 +3,8 @@ using BlogDemo.Api.Extensions;
 using BlogDemo.Core.Interfaces;
 using BlogDemo.Infrastructure.Database;
 using BlogDemo.Infrastructure.Repositories;
+using BlogDemo.Infrastructure.Resources;
+using FluentValidation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
@@ -44,7 +46,7 @@ namespace BlogDemo.Api
             services.AddAutoMapper(typeof(StartupDevelopment).Assembly);
             //services.AddAutoMapper(profileAssemblyMarkerTypes: null);
 
-
+            services.AddTransient<IValidator<PostResource>, PostResourceValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
