@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7fcf7bb50d6ab5bf69f3afab086cf03695cbf46c"
+    "signature": "ab6f97ea19829f563b1ae2f97b55a6adc6f3005f"
   },
   "compilationOptions": {
     "defines": [
@@ -677,6 +677,17 @@
           "lib/netstandard1.3/System.Interactive.Async.dll": {}
         }
       },
+      "System.Linq.Dynamic.Core/1.0.19": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.0.19.0",
+            "fileVersion": "1.0.19.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "System.Linq.Queryable/4.0.1": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -712,7 +723,8 @@
         "dependencies": {
           "BlogDemo.Core": "1.0.0",
           "FluentValidation": "8.5.1",
-          "Microsoft.EntityFrameworkCore.Design": "2.1.11"
+          "Microsoft.EntityFrameworkCore.Design": "2.1.11",
+          "System.Linq.Dynamic.Core": "1.0.19"
         },
         "runtime": {
           "BlogDemo.Infrastructure.dll": {}
@@ -3842,6 +3854,13 @@
       "sha512": "sha512-hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
       "path": "system.interactive.async/3.1.1",
       "hashPath": "system.interactive.async.3.1.1.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.0.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GFYslLz/1ZZ0+gbqYED2zlD0H95BIK4hOpIcEEEfTDDXAcKE5vpXQQseOGduNVjcJZOF3Wx+4npa2EjdFpuDgA==",
+      "path": "system.linq.dynamic.core/1.0.19",
+      "hashPath": "system.linq.dynamic.core.1.0.19.nupkg.sha512"
     },
     "System.Linq.Queryable/4.0.1": {
       "type": "package",

@@ -18,6 +18,7 @@ namespace BlogDemo.Api
     {
         public static void Main(string[] args)
         {
+            //配置 Serilog Logger
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
@@ -28,6 +29,7 @@ namespace BlogDemo.Api
 
             var host = CreateWebHostBuilder(args).Build();
 
+            // 数据库添加初始数据用于测试
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
@@ -48,6 +50,7 @@ namespace BlogDemo.Api
             host.Run();
         }
 
+        //选定开发环境，设定 Serilog
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseSerilog()
